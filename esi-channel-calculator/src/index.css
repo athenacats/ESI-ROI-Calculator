@@ -1,6 +1,5 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@500;600;700&display=swap");
-
+@import "tailwindcss";
 :root {
   --bg: #252a2f;
   --card: #2d3238;
