@@ -1,4 +1,3 @@
-import React from "react";
 import EsiChannelPartnerRoiCalculator from "./components/ESIChannelPartnerCalculator";
 
 function App() {
