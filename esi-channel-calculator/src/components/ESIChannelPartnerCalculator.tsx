@@ -419,7 +419,9 @@ export default function EsiChannelPartnerRoiCalculator() {
         {inputMode === "byClients" ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
             <div>
-              <label className="block text-xs text-white mb-1"># Clients</label>
+              <label className="block text-xs text-white mb-1">
+                Number of Clients
+              </label>
               <input
                 type="number"
                 min={0}
@@ -502,7 +504,7 @@ export default function EsiChannelPartnerRoiCalculator() {
 
           <div>
             <label className="block text-xs text-white mb-1">
-              Mgmt Fee per WSE ($)
+              Management Fee per WSE ($)
             </label>
             <input
               type="number"
@@ -556,17 +558,17 @@ export default function EsiChannelPartnerRoiCalculator() {
         "
         >
           <h3 className="text-sm font-semibold mb-3 text-white">
-            Standard CP (Static Example)
+            An Example of What Our Channel Partner Earns
           </h3>
 
           <div className="grid grid-cols-5 gap-4 text-sm text-white">
             <div>Scenario</div>
-            <div className="text-right">Mgmt Fee Commission</div>
-            <div className="text-right">+ Current Book</div>
+            <div className="text-right">Management Fee Commission</div>
+            <div className="text-right">Their Current Book</div>
             <div className="text-right">Total Revenue</div>
-            <div className="text-right">vs Book</div>
+            <div className="text-right">Value Added</div>
 
-            <div className="mt-1">Standard CP</div>
+            <div className="mt-1">Insurance Agent</div>
 
             <div className="text-right">
               {currencyFmt.format(STATIC_CP_MGMT)}
@@ -604,15 +606,15 @@ export default function EsiChannelPartnerRoiCalculator() {
         "
         >
           <h3 className="text-sm font-semibold mb-3 text-white">
-            Custom Commission (Adjustable)
+            Find Out Your Commision: Customize Below
           </h3>
 
           <div className="grid grid-cols-5 gap-4 text-sm text-white">
             <div>Scenario</div>
-            <div className="text-right">Mgmt Fee Commission</div>
-            <div className="text-right">+ Current Book</div>
+            <div className="text-right">Management Fee Commission</div>
+            <div className="text-right">Your Current Book</div>
             <div className="text-right">Total Revenue</div>
-            <div className="text-right">vs Book</div>
+            <div className="text-right">Value Added</div>
 
             <div className="mt-1">Custom</div>
 
