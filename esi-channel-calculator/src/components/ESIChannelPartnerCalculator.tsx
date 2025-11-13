@@ -162,7 +162,7 @@ export default function EsiChannelPartnerRoiCalculator() {
             text-white bg-[var(--soft)]
             hover:shadow-[0_0_15px_rgba(52,223,169,0.35)]
             hover:border-[var(--accent)]
-            transition-all duration-200
+            transition-all duration-200 cursor-pointer
           "
         >
           Reset
